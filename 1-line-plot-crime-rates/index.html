@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>🚨 Visualising Victims of Selected Major Offences in SG</title>
+        <script src="main.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js" integrity="sha512-wNH6xsp2n8CfB91nrBtfc4sfLwYPBMjSWVUwQOp60AYYXH6i8yCwuKFZ4rgK2i6pQek/b+bSyR7b01/922IBzQ==" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="d-flex justify-content-center flex-column mx-auto pt-2 mt-4">
+            <h3 class="text-center">Visualising Victims of<br>🚨 Selected Major Offences in Singapore (2011-2019) 🚨</h3>
+            <p class="text-center">Data from <a href="https://data.gov.sg/dataset/victims-of-selected-major-selected-offences?resource_id=50ce8b97-6f2e-4a0c-95b4-2477ab281846">data.gov.sg</a></p>
+        </div>
+        <div class='d-flex justify-content-center align-items-center flex-column'>
+            <select id='selectMenu' class='form-select mt-3 mb-3' style='width: min-content;'></select>
+            <div id="chart" style='width: min-content;'></div>
+            <div class='m-5 w-50'>
+                <p>While the number of victims of crimes of 
+                🔪 violent nature (Murder, Serious Hurt, Rioting) and 👺 thieving nature (Robbery, Snatch Thief) have been <span style='color: grey'>constant</span> or <span style='color: red'>decreasing</span>, the number of victims of crimes of 🍆 sexual nature (Cheating, Rape, Outrage of Modesty) has been <span style='color: green'>increasing</span> over the period of 9 years.</p>
+                <p>👨🏻 <span style='color: steelblue'>Men</span> are generally more susceptible to being victims of crime, with the exception of: Rape, Outrage of Modesty, and Snatch Theft, where 👩🏻 <span style='color: palevioletred'>Women</span> are more susceptible.</p>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
+

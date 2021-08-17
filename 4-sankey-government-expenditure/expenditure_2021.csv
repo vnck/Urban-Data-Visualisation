@@ -1,0 +1,60 @@
+target,value,source
+Economic Development,24670,Total Expenditure
+Government Administration,4526,Total Expenditure
+Security and External Relations,23671,Total Expenditure
+Social Development,49472,Total Expenditure
+Info-Communications and Media Development,812,Economic Development
+Manpower,5617,Economic Development
+Trade and Industry,7175,Economic Development
+Transport,11066,Economic Development
+Finance,2068,Government Administration
+Law,481,Government Administration
+Organs of State,711,Government Administration
+Prime Minister's Office,1266,Government Administration
+Defence,15361,Security and External Relations
+Foreign Affairs,434,Security and External Relations
+Home Affairs,7876,Security and External Relations
+Communications and Information,629,Social Development
+"Culture, Community and Youth",2272,Social Development
+Education,13620,Social Development
+Health,18845,Social Development
+Manpower,1560,Social Development
+National Development,5529,Social Development
+Social and Family Development,4113,Social Development
+Sustainability and the Environment,2904,Social Development
+Development,39,Communications and Information
+Operating,590,Communications and Information
+Development,358,"Culture, Community and Youth"
+Operating,1914,"Culture, Community and Youth"
+Development,558,Defence
+Operating,14803,Defence
+Development,530,Education
+Operating,13090,Education
+Development,140,Finance
+Operating,1928,Finance
+Development,13,Foreign Affairs
+Operating,421,Foreign Affairs
+Development,1490,Health
+Operating,17355,Health
+Development,1332,Home Affairs
+Operating,6544,Home Affairs
+Development,22,Info-Communications and Media Development
+Operating,790,Info-Communications and Media Development
+Development,220,Law
+Operating,261,Law
+Development,102,Manpower
+Operating,7075,Manpower
+Development,1380,National Development
+Operating,4149,National Development
+Development,104,Organs of State
+Operating,607,Organs of State
+Development,293,Prime Minister's Office
+Operating,973,Prime Minister's Office
+Development,99,Social and Family Development
+Operating,4014,Social and Family Development
+Development,1055,Sustainability and the Environment
+Operating,1849,Sustainability and the Environment
+Development,5123,Trade and Industry
+Operating,2052,Trade and Industry
+Development,7015,Transport
+Operating,4051,Transport

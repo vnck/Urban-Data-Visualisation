@@ -1,0 +1,29 @@
+.map {
+    fill: black;
+    stroke: white;
+    stroke-width: 0.5;
+}
+
+.ocean {
+    fill: silver;
+}
+
+.tooltip {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-style: italic;
+    position: absolute;
+    background: gold;
+    opacity: 1;
+}
+
+.selectedPath {
+    filter: saturate(200%);
+    stroke: gold;
+    stroke-width: 2;
+}
+
+.legend {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 12px;
+    padding: 0;
+}
